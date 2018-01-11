@@ -1,1 +1,3 @@
-Awesome
+# Awesome
+
+Simple and convenient logger.
