@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5A14DDE12007B00000C60829 /* Awesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A14DDDF2007B00000C60829 /* Awesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A14DDE92007B02D00C60829 /* AwesomeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A14DDE72007B02D00C60829 /* AwesomeLogger.h */; };
+		5A14DDE92007B02D00C60829 /* AwesomeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A14DDE72007B02D00C60829 /* AwesomeLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A14DDEA2007B02D00C60829 /* AwesomeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A14DDE82007B02D00C60829 /* AwesomeLogger.m */; };
 /* End PBXBuildFile section */
 
