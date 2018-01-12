@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "Awesome"
-  s.version             = "0.1.1"
+  s.version             = "0.1.2"
   s.summary             = "Simple and convenient logger."
   s.homepage            = "https://pubnative.net"
   s.license             = { :type => 'MIT', :text => <<-LICENSE
@@ -28,6 +28,8 @@ Pod::Spec.new do |s|
   s.author              = { "Can Soykarafakili" => "can.soykarafakili@gmail.com"}
   s.source              = { :git => "https://github.com/can-soykarafakili/Awesome.git", :tag => s.version }
   s.source_files        = "**/*.{h,m}"
+  s.frameworks = "AdSupport", "Foundation", "UIKit", "MediaPlayer"
+  s.libraries = "sqlite3"
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
   s.public_header_files = "**/*.h"

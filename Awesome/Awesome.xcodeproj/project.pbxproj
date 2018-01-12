@@ -10,6 +10,11 @@
 		5A14DDE12007B00000C60829 /* Awesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A14DDDF2007B00000C60829 /* Awesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A14DDE92007B02D00C60829 /* AwesomeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A14DDE72007B02D00C60829 /* AwesomeLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A14DDEA2007B02D00C60829 /* AwesomeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A14DDE82007B02D00C60829 /* AwesomeLogger.m */; };
+		5ACCDFE42008FB76000908EC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACCDFE32008FB76000908EC /* AdSupport.framework */; };
+		5ACCDFE62008FB80000908EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACCDFE52008FB80000908EC /* UIKit.framework */; };
+		5ACCDFE82008FB86000908EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACCDFE72008FB86000908EC /* Foundation.framework */; };
+		5ACCDFEA2008FB8E000908EC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACCDFE92008FB8E000908EC /* MediaPlayer.framework */; };
+		5ACCDFEC2008FBAE000908EC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACCDFEB2008FBAE000908EC /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +23,11 @@
 		5A14DDE02007B00000C60829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A14DDE72007B02D00C60829 /* AwesomeLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwesomeLogger.h; sourceTree = "<group>"; };
 		5A14DDE82007B02D00C60829 /* AwesomeLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeLogger.m; sourceTree = "<group>"; };
+		5ACCDFE32008FB76000908EC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5ACCDFE52008FB80000908EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5ACCDFE72008FB86000908EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5ACCDFE92008FB8E000908EC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5ACCDFEB2008FBAE000908EC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +35,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ACCDFEC2008FBAE000908EC /* libsqlite3.tbd in Frameworks */,
+				5ACCDFEA2008FB8E000908EC /* MediaPlayer.framework in Frameworks */,
+				5ACCDFE82008FB86000908EC /* Foundation.framework in Frameworks */,
+				5ACCDFE62008FB80000908EC /* UIKit.framework in Frameworks */,
+				5ACCDFE42008FB76000908EC /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +51,7 @@
 			children = (
 				5A14DDDE2007B00000C60829 /* Awesome */,
 				5A14DDDD2007B00000C60829 /* Products */,
+				5ACCDFE22008FB76000908EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +72,18 @@
 				5A14DDE82007B02D00C60829 /* AwesomeLogger.m */,
 			);
 			path = Awesome;
+			sourceTree = "<group>";
+		};
+		5ACCDFE22008FB76000908EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ACCDFEB2008FBAE000908EC /* libsqlite3.tbd */,
+				5ACCDFE92008FB8E000908EC /* MediaPlayer.framework */,
+				5ACCDFE72008FB86000908EC /* Foundation.framework */,
+				5ACCDFE52008FB80000908EC /* UIKit.framework */,
+				5ACCDFE32008FB76000908EC /* AdSupport.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
