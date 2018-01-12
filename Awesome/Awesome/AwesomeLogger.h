@@ -11,5 +11,5 @@
 @interface AwesomeLogger : NSObject
 
 - (void)log:(nullable NSString *)string;
-
+- (void)logCurrentDate;
 @end

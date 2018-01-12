@@ -15,4 +15,11 @@
     NSLog(@"%@",string);
 }
 
+-(void)logCurrentDate
+{
+    NSDateFormatter *dateFormatter=[[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSLog(@"%@",[dateFormatter stringFromDate:[NSDate date]]);
+}
+
 @end
